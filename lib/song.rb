@@ -28,8 +28,9 @@ end
 def self.genre_count
   @@genres.each do |word|
   genre_hash = {"#{word}" => "1"}
-  end
   genre_hash
+
+  end
 end
 
 def self.artist_count
