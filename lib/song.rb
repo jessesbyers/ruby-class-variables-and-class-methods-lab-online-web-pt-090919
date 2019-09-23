@@ -30,7 +30,7 @@ end
 def self.genre_count
   genre_hash = {}
   @@genres.each do |word|
-    genre_hash[word].each_pair do |key, value|
+    genre_hash[word].each do |key, value|
       genre_hash[key] = value +1
     end
   end
@@ -39,7 +39,7 @@ def self.genre_count
 #     if genre_hash.!include? genre_hash[word]
 #       genre_hash[word] = 1
 #     else
-# 
+#
 #       end
 #       end
 # #binding.pry
