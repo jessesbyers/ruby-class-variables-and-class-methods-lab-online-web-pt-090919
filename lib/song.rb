@@ -26,7 +26,9 @@ def self.genres
 end
 
 def self.genre_count
-  genre_hash = {"#{genre}" => "#{genre.count}"}
+  @@genres each do |word|
+  genre_hash = {"#{word}" => "1"}
+  end
 end
 
 def self.artist_count
