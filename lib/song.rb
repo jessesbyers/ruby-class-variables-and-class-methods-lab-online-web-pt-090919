@@ -37,10 +37,8 @@ def self.genre_count
       genre_hash[word] = 1
     end
   end
-
 end
-binding.pry
-
+#binding.pry
   genre_hash
 end
 
