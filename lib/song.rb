@@ -26,7 +26,7 @@ def self.genres
 end
 
 def self.genre_count
-  @@genres each do |word|
+  @@genres.each do |word|
   genre_hash = {"#{word}" => "1"}
   end
 end
