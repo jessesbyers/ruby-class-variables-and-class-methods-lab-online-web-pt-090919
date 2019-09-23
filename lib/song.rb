@@ -29,7 +29,7 @@ def self.genre_count
   @@genres.each do |word|
   genre_hash = {word => "1"}
   genre_hash
-#binding.pry
+binding.pry
   end
 end
 
