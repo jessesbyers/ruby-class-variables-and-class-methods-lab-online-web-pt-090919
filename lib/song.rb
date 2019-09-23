@@ -12,7 +12,7 @@ def initialize (name, artist, genre)
 end
 
 def count
-  Song.count
+  @@count
 end
 
 end
