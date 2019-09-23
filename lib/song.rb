@@ -35,13 +35,11 @@ def self.genre_count
       genre_hash[word] = 1
     else
       genre_hash[word] = value + 1
-
-
     end
   end
 end
 #binding.pry
-  genre_hash
+#  genre_hash
 end
 
 def self.artist_count
