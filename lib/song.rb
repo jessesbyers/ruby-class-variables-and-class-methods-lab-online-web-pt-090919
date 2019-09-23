@@ -15,4 +15,8 @@ def self.count
   @@count
 end
 
+def self.artists
+  @@artists << artist.unique
+end
+
 end
