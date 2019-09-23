@@ -33,10 +33,11 @@ def self.genre_count
     if genre_hash.has_key?(word)
       genre_hash.each do |key, value|
       genre_hash[key] = value + 1
+    end
     else genre_hash[key] = 1
 end
   end
-end
+
   genre_hash
 end
 
