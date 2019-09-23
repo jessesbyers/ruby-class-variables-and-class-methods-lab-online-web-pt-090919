@@ -42,7 +42,7 @@ def self.genre_count
 #
 #       end
 #       end
-# #binding.pry
+binding.pry
 #   end
   genre_hash
 end
