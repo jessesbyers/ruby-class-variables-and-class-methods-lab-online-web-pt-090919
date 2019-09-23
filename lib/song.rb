@@ -38,8 +38,8 @@ def self.genre_count
     end
   end
 end
-#binding.pry
-#  genre_hash
+binding.pry
+  genre_hash
 end
 
 def self.artist_count
