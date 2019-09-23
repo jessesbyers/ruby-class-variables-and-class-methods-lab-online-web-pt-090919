@@ -36,6 +36,7 @@ def self.genre_count
       genre_hash[word].each_pair do |key, value|
         genre_hash[key] = value +1
       end
+      end
 #binding.pry
   end
   genre_hash
