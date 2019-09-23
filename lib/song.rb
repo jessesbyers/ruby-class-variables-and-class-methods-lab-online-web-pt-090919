@@ -42,7 +42,17 @@ def self.genre_count
 end
 
 def self.artist_count
-
+  artist_hash = {}
+  @@artists.each do |word|
+    if artist_hash.has_key?(word)
+      artist_hash.each do |key, value|
+        artist_hash[key] = value + 1
+      end
+    else
+      artist_hash[word] = 1
+    end
+  end
+  artist_hash
 end
 
 end
