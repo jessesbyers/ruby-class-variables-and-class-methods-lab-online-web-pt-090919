@@ -26,7 +26,7 @@ def self.genres
 end
 
 def self.genre_count
-
+  genre_hash = {"#{genre}" => "#{genre.count}"}
 end
 
 def self.artist_count
