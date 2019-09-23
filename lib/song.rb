@@ -28,6 +28,7 @@ def self.genres
 end
 
 def self.genre_count
+  genre_hash = {}
   @@genres.each do |word|
   genre_hash[word] = 1
 binding.pry
